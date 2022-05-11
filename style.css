@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Roboto+Mono:wght@200;400&display=swap');
+@import a
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1536px;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    background-color: #112B3C;
+
+}
+
+
+
+.hero-container {
+   max-width: 1536px;
+    margin: 15px;
+
+    height: 50em;
+}
+
+
+.nav-bar {
+    width: inherit;
+    height: 70px;
+
+    margin: 5px;
+    display: grid;
+    grid-template-columns: minmax(max-content, 20%) minmax(max-content, 80%);
+}
+
+
+
+
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+
+    margin: 7px;
+
+}
+
+.logo h4 {
+    padding-left: 10px;
+    align-self: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.logo h4 span {
+    color: #F66B0E;
+}
+
+
+.narbar-sec {
+    width: inherit;
+    height: 50px;
+
+    margin: 7px;
+
+
+
+}
+
+
+.hero-part {
+    width: inherit;
+    height: 690px;
+
+
+    margin: 5px;
+    display: grid;
+    grid-template-columns: minmax(max-content, 50%) minmax(max-content, 50%) ;
+}
+
+
+.hero-part-left {
+
+    margin: 10px;
+
+    background-color: #F66B0E;
+    border-radius: 4%;
+    box-shadow: rgba(90, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: bounce;
+
+}
+
+.moves {
+    margin: 20px;
+    position: relative;
+    top: 17%;
+    border-radius: 25px;
+
+
+}
+
+
+
+ ul {
+     display: flex;
+     flex-direction: row;
+    gap: 6em;
+     float: right;
+     /*border: 1px solid purple;*/
+     margin-right: 10px;
+     margin-top: 3px;
+
+
+
+
+
+ }
+ li {
+     list-style: none;
+
+     padding: 5px;
+
+
+ }
+
+ .narbar-sec a {
+     text-decoration: none;
+     font-family: 'Chakra Petch', sans-serif;
+     border-bottom: 2px solid #F66B0E;
+     /*border-radius:5px;*/
+     font-size: 16px;
+     padding-bottom: 5px;
+     color: white;
+
+
+
+ }
+
+
+
+.narbar-sec a span {
+    color: #F66B0E;
+}
+
+ .bottom-part-hero{
+
+
+     position: relative;
+
+     margin: 30px;
+     width: 670px;
+     font-size: 25px;
+     padding: 10px;
+
+ }
+
+ .top-part-hero {
+
+     position: relative;
+
+     margin: 30px;
+     padding: 10px;
+ }
+
+
+ .resume-btn {
+
+
+
+     margin: 30px;
+     padding: 10px;
+ }
+ button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #F66B0E;
+}
+
+button a:hover {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+
+}
+
+button:hover {
+    background-color: #112B3C;
+
+}
+
+
+
+
+
+.bottom-part-hero p span {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+
+.bottom-part-hero p  {
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
+.top-part-hero h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 100;
+}
+
+
+.top-part-hero h3 {
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
+.hero-part-right {
+
+    margin: 10px;
+    border-radius: 4%;
+
+}
+
+
+.bloob {
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  background: url("/images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-size: cover;
+
+    animation: morph 3.7s linear infinite;
+    position: relative;
+
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 1px 4px 1px 1px #F66B0E;
+
+}
+
+.bloob2 {
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: url("/images/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
+    background-size: cover;
+
+    animation: morph 3.7s linear infinite;
+    position: relative;
+    border: 1px solid #F66B0E;
+    box-shadow: 1px 4px 1px 1px white;
+
+
+
+}
+
+
+
+.bloob1 {
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: url("/images/IMG_0289-removebg-preview.png");
+    background-size: cover;
+
+    animation: morph 3.7s linear infinite;
+    position: relative;
+
+    margin: 0 auto;
+    float: right;
+    border: 1px solid red;
+    box-shadow: 1px 4px 1px 1px white;
+
+}
+
+
+
+
+@keyframes morph {
+    0%, 100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%
+    }
+    32%{
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%
+}
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.letter {
+
+    width: 250px;
+    padding: 19px;
+    box-shadow: 2px 1px 9px 1px white;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    background-color: #F66B0E;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
+.mission {
+    width: 290px;
+    padding: 19px;
+    box-shadow: 2px 1px 9px 1px #F66B0E;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.fix-l {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.letter p {
+    position: relative;
+    top: 20%;
+}
+
+
+.aboutme h1 {
+
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid #F66B0E;
+    position: relative;
+    left: 35%;
+    color: #F66B0E;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
+.narbar-sec li button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.narbar-sec li  button:hover {
+    background-color: #F66B0E;
+    color: white;
+    box-shadow: 1px 1px 6px 2px white;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Contact Us Css*/
+
+
+
+.contactus-form {
+    background-color: white;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 25px;
+    position: relative;
+    bottom: 690px;
+
+   display: grid;
+    grid-template-columns: minmax(max-content, 50%)  minmax(max-content, 50%);
+
+}
+
+
+
+
+.hidden {
+    visibility: hidden;
+
+}
+
+
+.show {
+    visibility: visible;
+}
+
+
+.material-symbols-outlined {
+    margin: 15px;
+}
+
+
+.material-symbols-outlined:hover {
+
+    border-radius: 50%;
+}
+
+
+
+.right-contact-form {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.right-contact-form img {
+    width: 400px;
+}
+
+
+.left-contact-form {
+
+
+}
+
+.contactform {
+
+    position: relative;
+    top: 10%;
+
+}
+
+
+.contactform form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.contactform input , textarea {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.contactform input {
+    padding: 10px;
+    /*background-color: #f1c09a;*/
+    border: none;
+    border-radius: 4px;
+    opacity: 50%;
+    border-bottom: 1px solid #F66B0E;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+.contactform textarea {
+    padding: 10px;
+
+    border: none;
+    border-radius: 4px;
+    opacity: 50%;
+    border-bottom: 1px solid #F66B0E;
+    border-top: 1px solid #F66B0E;
+
+}
+
+
+
+#submit {
+
+
+    width: 150px;
+    margin: auto;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #F66B0E;
+
+
+
+}
+
+
+#submit:hover {
+    background-color: #F66B0E;
+    color: white;
+}
+
+
+.contactform h1 {
+    position: relative;
+    left: 40%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+
+
+
+}
+
+
+
